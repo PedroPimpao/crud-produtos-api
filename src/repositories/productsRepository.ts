@@ -7,7 +7,7 @@ export const connect = async () => {
     await prisma.$connect()
     console.log('Banco de dados conectado com sucesso')
 }
-// connect()
+connect()
 
 export class ProductRepository{
 

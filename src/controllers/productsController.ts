@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import { ProductRepository } from "../repositories/productsRepository.ts";
+import { ProductRepository } from "../repositories/productsRepository.js";
 
 const productRepo = new ProductRepository()
 

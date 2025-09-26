@@ -1,7 +1,7 @@
 import express from "express";
 import type { Express, Request, Response } from "express";
-import { connect } from "./repositories/productsRepository.ts";
-import { ProductController } from "./controllers/productsController.ts";
+import { connect } from "./repositories/productsRepository.js";
+import { ProductController } from "./controllers/productsController.js";
 
 // connect()
 

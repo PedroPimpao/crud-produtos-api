@@ -3,7 +3,7 @@ import type { Express, Request, Response } from "express";
 import { connect } from "./repositories/productsRepository.js";
 import { ProductController } from "./controllers/productsController.js";
 
-// connect()
+connect()
 
 const app: Express = express()
 const PORT: number = 3300

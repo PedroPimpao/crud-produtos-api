@@ -9,7 +9,7 @@
     "build": "prisma generate && tsc",
     "start": "node dist/app.js",
     "prisma:generate": "prisma generate",
-    "prisma:migrate" : "prisma migrate deploy",
+    "prisma:migrate": "prisma migrate deploy",
     "postinstall": "prisma generate"
   },
   "keywords": [],
@@ -23,9 +23,9 @@
   },
   "dependencies": {
     "@prisma/client": "^6.16.2",
-    "prisma": "^6.16.2",
     "express": "^5.1.0",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "prisma": "^6.16.2"
   },
   "type": "module"
 }
